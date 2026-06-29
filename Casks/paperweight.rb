@@ -7,7 +7,7 @@ cask "paperweight" do
   desc "Menu-bar paper-texture screen overlay that reduces glare"
   homepage "https://github.com/Harshil-varia/paperweight"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Paperweight.app"
 
